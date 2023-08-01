@@ -8,11 +8,13 @@ const Header = () => {
         <img src={logo} alt="Logo png" width={100} />
 
         <div className="h-menu">
-          <a href=""></a>
-          <a href=""></a>
-          <a href=""></a>
-          <a href=""></a>
-          <a href=""></a>
+          <a href="#">Residencies</a>
+          <a href="#">Our Value</a>
+          <a href="#">Contact us</a>
+          <a href="">Get Started</a>
+          <button className="button">
+            <a href="#">Contact</a>
+          </button>
         </div>
       </div>
     </section>
