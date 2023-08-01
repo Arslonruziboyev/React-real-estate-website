@@ -1,10 +1,11 @@
 import React from "react";
 import logo from "../../assets/logo.png";
+import "./Header.css";
 
 const Header = () => {
   return (
     <section className="h-wrapper">
-      <div className="h-container">
+      <div className="flexCenter paddings innerWidth h-container">
         <img src={logo} alt="Logo png" width={100} />
 
         <div className="h-menu">
