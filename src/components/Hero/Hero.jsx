@@ -32,8 +32,8 @@ const Hero = () => {
             <div className="flexCenter stats">
               <div className="flexColStart">
                 <span>
-                  <CounterUp />
-                  <span></span>
+                  <CounterUp start={8000} end={9000} duration={4} />
+                  <span>+</span>
                 </span>
               </div>
             </div>
