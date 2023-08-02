@@ -29,6 +29,14 @@ const Hero = () => {
               <input type="text" />
               <button className="button">Search</button>
             </div>
+            <div className="flexCenter stats">
+              <div className="flexColStart">
+                <span>
+                  <CounterUp />
+                  <span></span>
+                </span>
+              </div>
+            </div>
           </div>
           {/* Rught Side of Header*/}
           <div className="flexCenter hero-right">
