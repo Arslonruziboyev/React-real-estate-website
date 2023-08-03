@@ -18,10 +18,10 @@ const Hero = () => {
               </h1>
             </div>
             <div className="flexColStart hero-descp">
-              <span>
+              <span className="secondaryText">
                 Find a variety of properties that suit you very easilty
               </span>
-              <span>
+              <span className="secondaryText">
                 Forget all difficulties in finding a residence for you
               </span>
             </div>
