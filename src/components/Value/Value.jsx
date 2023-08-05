@@ -32,15 +32,26 @@ function Value() {
             <br />
             We beleive a good blace to live can make your life better
           </span>
-          <Accordion allowMultipleExpanded={flase} preExpanded={[0]}>
+          <Accordion
+            className="accordion"
+            allowMultipleExpanded={false}
+            preExpanded={[0]}
+          >
             {data.map((item, i) => {
               return (
                 <AccordionItem className="accordionItem" key={i} uuid={i}>
                   <AccordionItemHeading>
                     <AccordionItemButton>
                       <div className="flexCenter icon">{item.icon}</div>
+                      <span className="primaryText">{item.heading}</span>
+                      <div className="flexCenter icon">
+                        <MdOutlineArrowDropDown size={20} />
+                      </div>
                     </AccordionItemButton>
                   </AccordionItemHeading>
+                  <AccordionItemPanel className="secondaryText">
+                    {item.detail}
+                  </AccordionItemPanel>
                 </AccordionItem>
               );
             })}
