@@ -22,6 +22,16 @@ function Value() {
             <img src={valuePng} alt="Valus PNG" />
           </div>
         </div>
+        {/* Right Side */}
+        <div className="flexColStart v-right">
+          <span>Our Value</span>
+          <span>Value We Give To You</span>
+          <span>
+            We always ready to help by providijng the best services for you.{" "}
+            <br />
+            We beleive a good blace to live can make your life better
+          </span>
+        </div>
       </div>
     </section>
   );
