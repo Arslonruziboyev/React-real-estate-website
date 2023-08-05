@@ -41,7 +41,7 @@ function Value() {
               return (
                 <AccordionItem className="accordionItem" key={i} uuid={i}>
                   <AccordionItemHeading>
-                    <AccordionItemButton>
+                    <AccordionItemButton className="accordianButton">
                       <div className="flexCenter icon">{item.icon}</div>
                       <span className="primaryText">{item.heading}</span>
                       <div className="flexCenter icon">
@@ -49,8 +49,8 @@ function Value() {
                       </div>
                     </AccordionItemButton>
                   </AccordionItemHeading>
-                  <AccordionItemPanel className="secondaryText">
-                    {item.detail}
+                  <AccordionItemPanel>
+                    <p className="secondaryText">{item.detail}</p>
                   </AccordionItemPanel>
                 </AccordionItem>
               );
