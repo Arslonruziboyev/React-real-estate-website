@@ -8,7 +8,7 @@ import { sliderSettings } from "../../utils/common";
 function Residencies() {
   return (
     <section className="r-wrapper">
-      <div className="flexCenter paddings innerWidt r-container">
+      <div className=" paddings innerWidt r-container">
         <div className="r-head flexColStart">
           <span className="orangeText">Best Choices</span>
           <span className="primaryText">Popular Residencies</span>
