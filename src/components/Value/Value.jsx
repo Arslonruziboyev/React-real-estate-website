@@ -34,6 +34,7 @@ function Value() {
           </span>
           <Accordion
             className="accordion"
+            style={{ border: "none" }}
             allowMultipleExpanded={false}
             preExpanded={[0]}
           >
@@ -41,7 +42,7 @@ function Value() {
               return (
                 <AccordionItem className="accordionItem" key={i} uuid={i}>
                   <AccordionItemHeading>
-                    <AccordionItemButton className="accordianButton">
+                    <AccordionItemButton className="flexCenter accordianButton">
                       <div className="flexCenter icon">{item.icon}</div>
                       <span className="primaryText">{item.heading}</span>
                       <div className="flexCenter icon">
