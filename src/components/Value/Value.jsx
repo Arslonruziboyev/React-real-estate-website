@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Value.css";
 import valuePng from "../../assets/value.png";
 import {
@@ -14,6 +14,7 @@ import data from "../../utils/accordion";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 
 function Value() {
+  const [className, setClassName] = useState(null);
   return (
     <section className="v-wrapper">
       <div className="flexCenter paddings innerWidth v-container">
@@ -40,7 +41,11 @@ function Value() {
           >
             {data.map((item, i) => {
               return (
-                <AccordionItem className="accordionItem" key={i} uuid={i}>
+                <AccordionItem
+                  className={`accordionItem ${className}`}
+                  key={i}
+                  uuid={i}
+                >
                   <AccordionItemHeading>
                     <AccordionItemButton className="flexCenter accordianButton">
                       <AccordionItemState>
