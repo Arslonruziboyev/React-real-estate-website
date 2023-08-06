@@ -43,6 +43,13 @@ function Value() {
                 <AccordionItem className="accordionItem" key={i} uuid={i}>
                   <AccordionItemHeading>
                     <AccordionItemButton className="flexCenter accordianButton">
+                      <AccordionItemState>
+                        {({ expanded }) =>
+                          expanded
+                            ? setClassName("expanded")
+                            : setClassName("collapsed")
+                        }
+                      </AccordionItemState>
                       <div className="flexCenter icon">{item.icon}</div>
                       <span className="primaryText">{item.heading}</span>
                       <div className="flexCenter icon">

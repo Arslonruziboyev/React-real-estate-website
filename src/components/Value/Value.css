@@ -33,5 +33,9 @@
   border-radius: 5px;
 }
 .icon svg {
-  font: var(--blue);
+  fill: var(--blue);
+}
+
+.accordianButton .primaryText {
+  font-size: 1.1rem;
 }
