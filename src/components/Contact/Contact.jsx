@@ -1,5 +1,8 @@
 import React from "react";
 import ContctImg from "../../assets/contact.jpg";
+import { MdCall } from "react-icons/md";
+import { BsFillChatFill } from "react-icons/bs";
+import { BsFillChatFill } from "react-icons/bs";
 import "./Contact.css";
 
 function Contact() {
@@ -15,7 +18,18 @@ function Contact() {
             beleive a good blace to live can make your life better
           </span>
 
-          <div className="flexColStart contactModes">{/* First Row */}</div>
+          <div className="flexColStart contactModes">
+            {/* First Row */}
+            <div className="flexColStart row">
+              <div className="flexColCenter mode">
+                <div className="flexStart">
+                  <div className="flexCenter icon">
+                    <MdCall size={25} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         {/* Right Side */}
         <div className="c-right">
