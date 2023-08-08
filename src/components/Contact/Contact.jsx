@@ -2,7 +2,7 @@ import React from "react";
 import ContctImg from "../../assets/contact.jpg";
 import { MdCall } from "react-icons/md";
 import { BsFillChatFill } from "react-icons/bs";
-import { BsFillChatFill } from "react-icons/bs";
+import { HiChat } from "react-icons/hi";
 import "./Contact.css";
 
 function Contact() {
@@ -25,6 +25,10 @@ function Contact() {
                 <div className="flexStart">
                   <div className="flexCenter icon">
                     <MdCall size={25} />
+                  </div>
+                  <div className="flexColStart detail">
+                    <span>Call</span>
+                    <span>010 4888 7450</span>
                   </div>
                 </div>
               </div>
