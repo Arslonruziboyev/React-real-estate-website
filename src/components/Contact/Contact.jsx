@@ -2,7 +2,7 @@ import React from "react";
 import ContctImg from "../../assets/contact.jpg";
 import { MdCall } from "react-icons/md";
 import { BsFillChatFill } from "react-icons/bs";
-import { HiChat } from "react-icons/hi";
+import { HiChatBubbleBottomCenter } from "react-icons/hi2";
 import "./Contact.css";
 
 function Contact() {
@@ -31,6 +31,7 @@ function Contact() {
                     <span>010 4888 7450</span>
                   </div>
                 </div>
+                <div className="flexCenter button">Call Now</div>
               </div>
             </div>
           </div>
