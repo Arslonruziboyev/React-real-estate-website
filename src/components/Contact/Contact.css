@@ -34,3 +34,12 @@
   font-size: 0.9rem;
   font-weight: 600;
 }
+
+.mode > :nth-child(1) {
+  width: 100%;
+  gap: 1.6rem;
+}
+.mode .detail .primaryText {
+  font-size: 1.1rem;
+  font-weight: 600;
+}

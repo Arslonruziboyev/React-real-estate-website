@@ -27,8 +27,8 @@ function Contact() {
                     <MdCall size={25} />
                   </div>
                   <div className="flexColStart detail">
-                    <span>Call</span>
-                    <span>010 4888 7450</span>
+                    <span className="primaryText">Call</span>
+                    <span className="secondaryText">010 4888 7450</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Call Now</div>
