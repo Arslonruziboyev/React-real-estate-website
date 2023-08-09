@@ -12,7 +12,9 @@ function GetStarted() {
               Subscribe and find super attractive price quotes from us.
               <br /> Find your residence soon
             </span>
-            <span></span>
+            <button className="button">
+              <a href="mailto:arslonruziboev1999@gmail.com">Get Started</a>
+            </button>
           </div>
         </div>
       </section>
