@@ -20,7 +20,7 @@ function Contact() {
 
           <div className="flexColStart contactModes">
             {/* First Row */}
-            <div className="flexColStart row">
+            <div className="flexStart row">
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
@@ -51,7 +51,7 @@ function Contact() {
 
             {/* Secnd Row */}
 
-            <div className="flexColStart row">
+            <div className="flexStart row">
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
