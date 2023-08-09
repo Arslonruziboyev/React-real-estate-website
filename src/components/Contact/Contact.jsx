@@ -33,6 +33,20 @@ function Contact() {
                 </div>
                 <div className="flexCenter button">Call Now</div>
               </div>
+
+              {/* Second mode */}
+              <div className="flexColCenter mode">
+                <div className="flexStart">
+                  <div className="flexCenter icon">
+                    <HiChatBubbleBottomCenter size={25} />
+                  </div>
+                  <div className="flexColStart detail">
+                    <span className="primaryText">Chat</span>
+                    <span className="secondaryText">010 4888 7450</span>
+                  </div>
+                </div>
+                <div className="flexCenter button">Chat Now</div>
+              </div>
             </div>
           </div>
         </div>
