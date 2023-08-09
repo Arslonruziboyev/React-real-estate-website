@@ -1,7 +1,7 @@
 import React from "react";
 import ContctImg from "../../assets/contact.jpg";
 import { MdCall } from "react-icons/md";
-import { BsFillChatFill } from "react-icons/bs";
+import { BsFillChatDotsFill } from "react-icons/bs";
 import { HiChatBubbleBottomCenter } from "react-icons/hi2";
 import "./Contact.css";
 
@@ -38,7 +38,7 @@ function Contact() {
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
-                    <HiChatBubbleBottomCenter size={25} />
+                    <BsFillChatDotsFill size={25} />
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Chat</span>
@@ -46,6 +46,37 @@ function Contact() {
                   </div>
                 </div>
                 <div className="flexCenter button">Chat Now</div>
+              </div>
+            </div>
+
+            {/* Secnd Row */}
+
+            <div className="flexColStart row">
+              <div className="flexColCenter mode">
+                <div className="flexStart">
+                  <div className="flexCenter icon">
+                    <BsFillChatDotsFill size={25} />
+                  </div>
+                  <div className="flexColStart detail">
+                    <span className="primaryText">Video Call</span>
+                    <span className="secondaryText">010 4888 7450</span>
+                  </div>
+                </div>
+                <div className="flexCenter button">Video Call Now</div>
+              </div>
+
+              {/* Fourth mode */}
+              <div className="flexColCenter mode">
+                <div className="flexStart">
+                  <div className="flexCenter icon">
+                    <HiChatBubbleBottomCenter size={25} />
+                  </div>
+                  <div className="flexColStart detail">
+                    <span className="primaryText">Message</span>
+                    <span className="secondaryText">010 4888 7450</span>
+                  </div>
+                </div>
+                <div className="flexCenter button">Message Now</div>
               </div>
             </div>
           </div>
