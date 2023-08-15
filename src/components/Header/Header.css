@@ -19,3 +19,9 @@
 .menu-icon {
   display: none;
 }
+
+@media (max-width: 769px) {
+  .menu-icon {
+    display: block;
+  }
+}
