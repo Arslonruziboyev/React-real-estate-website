@@ -15,7 +15,11 @@ function Footer() {
             the best place to live for them.
           </span>
         </div>
-        <div className="flexColStart f-right"></div>
+        {/* Right Side */}
+        <div className="flexColStart f-right">
+          <span className="primaryText">Information</span>
+          <span className="secondaryText">145 New York, FL 5467, USA</span>
+        </div>
       </div>
     </section>
   );
