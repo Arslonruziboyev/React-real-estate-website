@@ -19,6 +19,8 @@ function Footer() {
         <div className="flexColStart f-right">
           <span className="primaryText">Information</span>
           <span className="secondaryText">145 New York, FL 5467, USA</span>
+
+          <div className="flexCenter f-menu"></div>
         </div>
       </div>
     </section>
