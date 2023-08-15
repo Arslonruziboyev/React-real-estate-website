@@ -24,4 +24,8 @@
   .menu-icon {
     display: block;
   }
+  .h-menu {
+    color: var(--black);
+    position: absolute;
+  }
 }
