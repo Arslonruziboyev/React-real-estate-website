@@ -30,5 +30,9 @@
     top: 3rem;
     right: 4rem;
     background-color: white;
+    flex-direction: column;
+    font-weight: 500;
+    gap: 2rem;
+    padding: 3rem;
   }
 }
