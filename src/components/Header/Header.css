@@ -10,6 +10,7 @@
   color: var(--secondary);
 }
 .h-menu {
+  z-index: 9999;
   gap: 2rem;
 }
 .h-menu > *:hover {
