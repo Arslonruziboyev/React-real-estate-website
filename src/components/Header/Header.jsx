@@ -5,6 +5,11 @@ import { BiMenuAltRight } from "react-icons/bi";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(flase);
+  const getMenuStyles = (menuOpen) => {
+    if (document.documentElement.clientWidth <= 800) {
+      return { right: "-100%" };
+    }
+  };
   return (
     <section className="h-wrapper">
       <div className="flexCenter paddings innerWidth h-container">
