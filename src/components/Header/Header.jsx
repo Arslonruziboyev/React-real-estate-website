@@ -19,7 +19,7 @@ const Header = () => {
             <a href="#">Contact</a>
           </button>
         </div>
-        <div className="menu-icon">
+        <div className="menu-icon" onClick={() => setMenuOpen((prev) => !prev)}>
           <BiMenuAltRight size={30} />
         </div>
       </div>
