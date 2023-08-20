@@ -2,6 +2,7 @@ import React from "react";
 import HeroImg from "../../assets/hero-image.png";
 import { HiLocationMarker } from "react-icons/hi";
 import CounterUp from "react-countup";
+import { motion } from "framer-motion";
 import "./Hero.css";
 
 const Hero = () => {
@@ -13,9 +14,12 @@ const Hero = () => {
           <div className="flexColStart hero-left">
             <div className="hero-title">
               <div className="circle-title" />
-              <h1>
+              <motion.h1
+                initial={{ y: "2rem", opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+              >
                 Discover <br /> Most Suitable <br /> Proberty
-              </h1>
+              </motion.h1>
             </div>
             <div className="flexColStart hero-descp">
               <span className="secondaryText">
