@@ -17,6 +17,7 @@ const Hero = () => {
               <motion.h1
                 initial={{ y: "2rem", opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 2, type: "spring" }}
               >
                 Discover <br /> Most Suitable <br /> Proberty
               </motion.h1>
@@ -60,9 +61,14 @@ const Hero = () => {
           </div>
           {/* Rught Side of Header*/}
           <div className="flexCenter hero-right">
-            <div className="image-container">
+            <motion.div
+              className="image-container"
+              initial={{ x: "7rem", opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 2, type: "spring" }}
+            >
               <img src={HeroImg} alt="Hero Image" />
-            </div>
+            </motion.div>
           </div>
         </div>
       </section>
